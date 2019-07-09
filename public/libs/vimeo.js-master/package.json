@@ -1,0 +1,30 @@
+{
+  "name": "vimeo",
+  "version": "2.1.0",
+  "license": "Apache-2.0",
+  "description": "A Node.js library for the new Vimeo API.",
+  "homepage": "https://developer.vimeo.com/",
+  "main": "index.js",
+  "directories": {
+    "example": "example/",
+    "lib": "lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vimeo/vimeo.js"
+  },
+  "keywords": [
+    "vimeo"
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "tus-js-client": "^1.5.1"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "standard": "standard index.js lib/*.js example/*.js",
+    "test": "npm run standard"
+  }
+}

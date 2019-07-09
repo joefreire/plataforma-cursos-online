@@ -1,0 +1,2 @@
+<?php
+echo "Authorization : basic " .  base64_encode('0818a99e2b72e321d38960a751ded1426687ff85' . ":" .'fU6r0wFmgcK3RyHUWs1a/ktns/FLL7aZAdGJ8S45HGtTTKPDY52VCis4CJt4u5zmMdrhaCelwXUFmtjf/rpiicFldH5PL1EobbKmrTpRQmAb600ftgQpYs7u1knU0sSK');
