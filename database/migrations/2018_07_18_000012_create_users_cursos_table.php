@@ -22,7 +22,7 @@ class CreateUsersCursosTable extends Migration
     {
         if (Schema::hasTable($this->set_schema_table)) return;
         Schema::create($this->set_schema_table, function (Blueprint $table) {
-            $table->engine = 'InnoDB';
+
             $table->increments('id');
             $table->unsignedInteger('user_id');
             $table->integer('curso_id');

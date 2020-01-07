@@ -1,0 +1,51 @@
+{
+    "name": "artesaos/moip",
+    "description": "Integration of MoIP payment intermediary with Laravel 5",
+    "keywords": ["moip", "gateway", "payment", "laravel", "checkout", "intermediary"],
+    "homepage": "http://dev.moip.com.br",
+    "license": "MIT",
+    "type": "libraries",
+    "support": {
+        "issues": "https://github.com/artesaos/moip/issues",
+        "source": "https://github.com/artesaos/moip"
+    },
+    "authors": [
+        {
+            "name": "Jean Cesar Garcia",
+            "email": "jeancesargarcia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/config": "~5.1 || ~5.2 || ~5.3 || ~5.4",
+        "illuminate/support": "~5.1 || ~5.2 || ~5.3 || ~5.4",
+        "moip/moip-sdk-php": "2.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8.35",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Artesaos\\Moip\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Artesaos\\Moip\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Artesaos\\Moip\\Providers\\MoipServiceProvider"
+            ],
+            "aliases": {
+                "Moip": "Artesaos\\Moip\\Facades\\Moip"
+            }
+        }
+    }
+}

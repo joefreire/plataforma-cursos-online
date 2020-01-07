@@ -41,17 +41,17 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'tinele.cwvg6bdlveip.us-east-1.rds.amazonaws.com'),
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'tinele'),
-            'username' => env('DB_USERNAME', 'tinele_root'),
-            'password' => env('DB_PASSWORD', '!r00t_t1n3le*'),
+            'database' => env('DB_DATABASE', 'database'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'strict' => false,
-            'engine' => null,
+            'engine' => 'InnoDB',
         ],
 
         'pgsql' => [

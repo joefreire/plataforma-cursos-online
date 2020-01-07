@@ -1,0 +1,65 @@
+
+
+
+
+DAR UMA OLHADA
+*-> Colocar um bot�o na exibi��o do certificado para o usu�rio fazer download;
+*-> Inserir a informa��o do professor no certificado;
+*-> Mostrar o nome do Instrutor no certificado, abaixo do escrito "Curso ministrado por:";
+*-> N�o est� aparecendo o controle do v�deo na hora de assistir � aula;
+*-> Salvar as notas;
+*-> O usu�rio poder ver todas as anota��es que ele fez durante o curso, quando finalizar o mesmo;
+
+FAZER
+*-> Trocar a palavra "Professor" por "Instrutor";
+*-> N�o est� substituindo a foto pela que o professor cadastrou na p�gina do curso na parte: "Sobre o Instrutor";
+*-> Campo de pesquisa na barra de menu e centralizado na landing;
+*-> Link na imagem e t�tulo do curso na landing;
+*-> Deixar somente os �cones com os links do LinkedIn, Facebook e do Youtube;
+*-> Quando n�o est� logado e clica para adquirir um curso, redireciona para o usu�rio fazer login. Permitir que o usu�rio possa se registrar caso n�o possua conta,
+e retirar o "seja um professor"; (prioridade para o aluno - redirecionar para tela de registrar como aluno)
+*-> A logo da p�gina inicial na parte do footer est� enviando para a p�gina errada;
+*-> Quando n�o h� prova cadastrada aparece uma tela de erro informando que n�o tem como dividir por ZERO;
+-> Rodap� desenvolvido pela plugse
+
+SE DER TEMPO
+-> Colocar nome do professor, foto e o valor do curso na exibi��o de curso na landing;
+*-> Permitir o ADM desabilitar um coment�rio;
+*-> Limitar a quantidade m�xima de exibi��o de coment�rios, sendo que o restante s� � carregado se o usu�rio clicar para ler mais;
+*-> quando o aluno clicar para assistir o curso, abrir automaticamente a primeira aula do curso;
+
+
+
+
+
+IGNORAR DAQUI PARA BAIXO
+
+----------------Alcionildo n�o est� conseguindo enviar um v�deo para a plataforma, as telas de erro est�o apresentadas na imagem que ele enviou!!
+
+*-> Bot�o deixar verde inicialmente e vira cinza quando passa o mouse por cima; (#a0a0a0)
+*-> Deixar menu fixado no topo;
+*-> Escurecer um pouco a cor de fundo da imagem/v�deo de apresenta��o do curso na p�gina dele;
+*-> Quando for ver a aula gratuita, assim que informar o e-mail j� abrir a aula;
+*-> No painel de controle, especificar de qual curso o aluno deixou o e-mail;
+*-> Ao desabilitar um coment�rio, o administrador deve escrever o motivo do por que foi desabilitado o coment�rio e esse motivo � enviado
+ ao email queo usu�rio se cadastrou;
+*-> Tentar reduzir o n�mero de informa��es que � solicitado no checkout de pagamento;
+-> Sobre o afiliado, apresentar algo mostrando onde ele se afilia, e um sistema adm simples exibindo quanto ele possui e quais os cursos que ele est� afiliado;
+*-> Adicionar um bot�o para o usu�rio poder passar para a pr�xima aula ou ver a anterior;
+*-> Adicionar um campo para o aluno baixar o arquivo complementar, na tela de exibi��o do curso;
+*-> Aumentar �cone de download de material e move-lo para cima;
+*-> Permitir ao ADM enviar na p�gina de Newsletter mesmo uma mensagem para a pessoa que deixou o email;
+-> Fixar o menu superior no topo da tela, que mesmo rolando para baixo na p�gina, ele se mantenha(position fixed);
+*-> Verificar o funcionamento do c�digo de verifica��o do certificado e inserir campo no site permitindo o teste de valida��o;
+
+
+
+
+
+
+
+
+---------------------------------------------------
+
+*-> Colocar nome do professor, foto e o valor do curso na exibição de curso na landing;
+-> Sobre o afiliado, apresentar algo mostrando onde ele se afilia, e um sistema adm simples exibindo quanto ele possui e quais os cursos que ele está afiliado; - FEITO aparte do painel*
